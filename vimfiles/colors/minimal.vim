@@ -39,8 +39,10 @@ highlight SpecialComment  guifg=#000000               gui=none
 highlight SpecialKey      guifg=#2B91AF
 highlight Statement       guifg=#000000               gui=none
 highlight String          guifg=#000000
-highlight Todo            guifg=#000000               gui=bold
+highlight Todo            guifg=#000000 guibg=#FFFFFF gui=bold
 highlight Type            guifg=#000000               gui=none
+highlight Title           guifg=#000000               gui=none
+highlight Underlined      guifg=#000000 guibg=#FFFFFF gui=none
 
 highlight Visual          guifg=#000000 guibg=#ADD6FF gui=none
 highlight MatchParen      guifg=#000000 guibg=#CCCCCC
@@ -48,5 +50,10 @@ highlight CursorLine                    guibg=#EEEEEE
 highlight CursorColumn                  guibg=#EEEEEE
 highlight IncSearch       guifg=#F0B445 guibg=#000000
 highlight Search          guifg=#000000 guibg=#F0B445
+
+highlight Pmenu           guifg=#000000 guibg=#EEEEEE
+highlight PmenuSel                      guibg=#ADD6FF
+highlight PmenuSbar                     guibg=#CCCCCC
+highlight PmenuThumb                    guibg=#000000
 
 " vim:et:ff=unix:tw=0:ts=2:sw=2
